@@ -13,6 +13,7 @@
 		F2DF591F265E5116000A6E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DF591D265E5116000A6E52 /* Main.storyboard */; };
 		F2DF5921265E5117000A6E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DF5920265E5117000A6E52 /* Assets.xcassets */; };
 		F2DF5924265E5117000A6E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DF5922265E5117000A6E52 /* LaunchScreen.storyboard */; };
+		F2DF592C265FAB53000A6E52 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F2DF592B265FAB53000A6E52 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F2DF5920265E5117000A6E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DF5923265E5117000A6E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DF5925265E5117000A6E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DF592B265FAB53000A6E52 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F2DF5916265E5116000A6E52 /* CoreMLCameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2DF592B265FAB53000A6E52 /* SqueezeNet.mlmodel */,
 				F2DF5917265E5116000A6E52 /* AppDelegate.swift */,
 				F2DF5919265E5116000A6E52 /* SceneDelegate.swift */,
 				F2DF591B265E5116000A6E52 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 				F2DF591C265E5116000A6E52 /* ViewController.swift in Sources */,
 				F2DF5918265E5116000A6E52 /* AppDelegate.swift in Sources */,
 				F2DF591A265E5116000A6E52 /* SceneDelegate.swift in Sources */,
+				F2DF592C265FAB53000A6E52 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
